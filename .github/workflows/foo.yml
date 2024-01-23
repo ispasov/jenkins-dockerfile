@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: uanem
         run: uname -a
+        
+      - name: uanem
+        run: sw_vers
+        
+      - name: uanem
+        run: sysctl -n hw.ncpu
