@@ -1,5 +1,6 @@
 name: MacOS Workflow
-workflow_dispatch: 
+on:
+  workflow_dispatch: 
 
 jobs:
   test:
