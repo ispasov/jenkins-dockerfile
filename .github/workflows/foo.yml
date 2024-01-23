@@ -1,0 +1,11 @@
+name: MacOS Workflow
+workflow_dispatch: 
+
+jobs:
+  test:
+    name: test
+    runs-on: macos-13
+
+    steps:
+      - name: uanem
+        run: uname -a
